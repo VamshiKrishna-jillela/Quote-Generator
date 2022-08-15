@@ -1,0 +1,64 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Lato',sans-serif; */
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  border: 2px black solid;
+  background-image:url("two.jpg");
+    
+}
+
+.container{
+  /* border: 4px rgb(244, 244, 244) solid; */
+  border-radius: 15px;
+  padding: 20px 50px;
+  color:white;
+  background-color: rgb(103, 173, 108);
+  box-shadow: 0 0 10px;
+}
+
+.heading{
+  /* border: 4px rgb(239, 185, 8) solid; */
+  background-color: rgb(87, 111, 146);
+  margin:0 200px;
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.text-area{
+  /* border: 2px black solid; */
+  margin:50px;
+  font-size: 1.6rem;
+  line-height: 1.5rem;
+}
+
+.author{
+  /* border:2px black solid; */
+  margin: 20px;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: beige;
+  font-weight: bolder;
+}
+
+#new-quote{
+  /* border:2px black solid; */
+  font-size: 1.2rem;
+  margin-top:15px;
+  padding: 10px 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px;
+  font-weight:600;
+}
+
+
+
